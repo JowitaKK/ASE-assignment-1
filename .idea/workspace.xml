@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18123d5b-5e16-4026-8dd9-7c6427ef72a2" name="Default Changelist" comment="" />
+    <list default="true" id="18123d5b-5e16-4026-8dd9-7c6427ef72a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.uml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,22 +16,24 @@
     <session id="29207349">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="JAVA/" value="3" />
+          <entry key="JAVA/" value="4" />
           <entry key="csv" value="3" />
-          <entry key="java" value="14" />
+          <entry key="java" value="15" />
+          <entry key="uml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="UML" value="3" />
+          <entry key="UML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,179 +52,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
-              <folding>
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#560#561#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#758#759#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#849#850#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="811.0" y="1262.0">com</node>
-                <node x="13.150961538461559" y="283.0">Order</node>
-                <node x="10.5" y="829.0">OrderGUI</node>
-                <node x="470.0115384615385" y="606.0">MenuList</node>
-                <node x="1304.0" y="1262.0">org</node>
-                <node x="620.1625" y="36.0">ItemType</node>
-                <node x="1142.0" y="1262.0">sun</node>
-                <node x="249.0" y="1262.0">META-INF</node>
-                <node x="0.0" y="1338.0">jdk</node>
-                <node x="334.84326923076924" y="211.0">Item</node>
-                <node x="0.0" y="1262.0">groovyjarjarasm</node>
-                <node x="454.69230769230774" y="0.0">ItemCategory</node>
-                <node x="977.0" y="1262.0">java</node>
-                <node x="453.0" y="1262.0">groovy</node>
-                <node x="638.0" y="1262.0">javax</node>
-                <node x="1198.3432692307692" y="0.0">groovyjarjarcommonscli</node>
-                <node x="405.7875" y="901.0">ShopManager</node>
-                <node x="4.150961538461559" y="606.0">OrderList</node>
-                <node x="914.3432692307692" y="4.46875">groovyjarjarantlr</node>
-                <node x="285.28076923076924" y="1162.0">Main</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Item" target="ItemCategory">
-                  <point x="-59.75" y="-172.5" />
-                  <point x="514.0932692307692" y="191.0" />
-                  <point x="572.1923076923077" y="191.0" />
-                  <point x="47.0" y="75.5" />
-                </edge>
-                <edge source="Main" target="MenuList">
-                  <point x="82.5" y="-27.5" />
-                  <point x="466.78076923076924" y="1142.0" />
-                  <point x="751.0048076923077" y="1142.0" />
-                  <point x="751.0048076923077" y="809.0" />
-                  <point x="696.8115384615385" y="809.0" />
-                  <point x="100.80000000000001" y="76.5" />
-                </edge>
-                <edge source="ShopManager" target="OrderList">
-                  <point x="-39.375" y="-64.5" />
-                  <point x="523.9125" y="779.0" />
-                  <point x="248.9509615384615" y="779.0" />
-                  <point x="108.79999999999995" y="76.5" />
-                </edge>
-                <edge source="Main" target="OrderGUI">
-                  <point x="-16.5" y="-27.5" />
-                  <point x="367.78076923076924" y="1122.0" />
-                  <point x="246.0" y="1122.0" />
-                  <point x="78.5" y="136.5" />
-                </edge>
-                <edge source="Main" target="ShopManager">
-                  <point x="16.5" y="-27.5" />
-                  <point x="400.78076923076924" y="1122.0" />
-                  <point x="484.5375" y="1122.0" />
-                  <point x="-78.75" y="64.5" />
-                </edge>
-                <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-                  <point x="0.0" y="15.5" />
-                  <point x="1018.8432692307692" y="65.46875" />
-                  <point x="884.3432692307692" y="65.46875" />
-                  <point x="884.3432692307692" y="19.96875" />
-                  <point x="-104.5" y="-0.0" />
-                </edge>
-                <edge source="OrderList" target="Order">
-                  <point x="0.0" y="-76.5" />
-                  <point x="0.0" y="100.5" />
-                </edge>
-                <edge source="MenuList" target="ItemCategory">
-                  <point x="-100.80000000000004" y="-76.5" />
-                  <point x="495.21153846153845" y="586.0" />
-                  <point x="324.34326923076924" y="586.0" />
-                  <point x="324.34326923076924" y="171.0" />
-                  <point x="478.19230769230774" y="171.0" />
-                  <point x="-47.0" y="75.5" />
-                </edge>
-                <edge source="ShopManager" target="MenuList">
-                  <point x="118.125" y="-64.5" />
-                  <point x="681.4125" y="809.0" />
-                  <point x="646.4115384615386" y="809.0" />
-                  <point x="50.400000000000034" y="76.5" />
-                </edge>
-                <edge source="Main" target="OrderList">
-                  <point x="-82.5" y="-27.5" />
-                  <point x="301.78076923076924" y="1142.0" />
-                  <point x="0.0" y="1142.0" />
-                  <point x="0.0" y="809.0" />
-                  <point x="31.350961538461604" y="809.0" />
-                  <point x="-108.79999999999995" y="76.5" />
-                </edge>
-                <edge source="OrderGUI" target="OrderList">
-                  <point x="-117.75" y="-136.5" />
-                  <point x="49.75" y="809.0" />
-                  <point x="85.75096153846158" y="809.0" />
-                  <point x="-54.39999999999998" y="76.5" />
-                </edge>
-                <edge source="MenuList" target="Item">
-                  <point x="50.39999999999998" y="-76.5" />
-                  <point x="646.4115384615385" y="576.0" />
-                  <point x="733.1766025641026" y="576.0" />
-                  <point x="159.33333333333337" y="172.5" />
-                </edge>
-                <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-                  <point x="64.5" y="15.5" />
-                  <point x="1391.8432692307692" y="61.0" />
-                  <point x="1168.3432692307692" y="61.0" />
-                  <point x="1168.3432692307692" y="7.75" />
-                  <point x="-129.0" y="-7.75" />
-                </edge>
-                <edge source="MenuList" target="ItemType">
-                  <point x="100.80000000000001" y="-76.5" />
-                  <point x="696.8115384615385" y="586.0" />
-                  <point x="823.3432692307692" y="586.0" />
-                  <point x="823.3432692307692" y="181.0" />
-                  <point x="712.6625" y="181.0" />
-                  <point x="37.0" y="39.5" />
-                </edge>
-                <edge source="OrderGUI" target="MenuList">
-                  <point x="39.25" y="-136.5" />
-                  <point x="206.75" y="799.0" />
-                  <point x="495.2115384615385" y="799.0" />
-                  <point x="-100.8" y="76.5" />
-                </edge>
-                <edge source="Item" target="ItemType">
-                  <point x="179.25" y="-172.5" />
-                  <point x="753.0932692307692" y="191.0" />
-                  <point x="675.6625" y="191.0" />
-                  <point x="0.0" y="39.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="205.0" y="520.0" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/menuItems.csv">
           <provider selected="true" editor-type-id="text-editor">
@@ -233,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/customerOrders.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+              <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -241,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OrderGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+            <state relative-caret-position="90">
+              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,15 +87,16 @@
         <entry file="file://$PROJECT_DIR$/src/Order.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-              <folding>
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-              </folding>
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -270,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MenuList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="225">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -283,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/ItemType.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -291,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OrderList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="480">
               <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -304,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/ItemCategory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -318,6 +152,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -346,16 +183,17 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="292" />
-    <option name="y" value="259" />
-    <option name="width" value="2550" />
-    <option name="height" value="1059" />
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -374,16 +212,19 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547727095820" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548276733326" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -426,75 +267,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547669009101</updated>
-      <workItem from="1547669012598" duration="14466000" />
+      <workItem from="1547669012598" duration="16243000" />
+      <workItem from="1548017854713" duration="2817000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14466000" />
+    <option name="totallyTimeSpent" value="19060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32901832" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2497332" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32901832" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.399137" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32901832" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,13 +345,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShopManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -549,14 +383,97 @@
     <entry file="file://$PROJECT_DIR$/customerOrders.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ItemType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ItemCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">Order</node>
+            <node x="" y="">OrderGUI</node>
+            <node x="" y="">MenuList</node>
+            <node x="" y="">org</node>
+            <node x="" y="">ItemType</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">Item</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">ItemCategory</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">ShopManager</node>
+            <node x="" y="">OrderList</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">Main</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="382.9999999999998" y="563.1666666666665" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
@@ -566,198 +483,126 @@
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="811.0" y="1262.0">com</node>
-            <node x="13.150961538461559" y="283.0">Order</node>
-            <node x="10.5" y="829.0">OrderGUI</node>
-            <node x="470.0115384615385" y="606.0">MenuList</node>
-            <node x="1304.0" y="1262.0">org</node>
-            <node x="620.1625" y="36.0">ItemType</node>
-            <node x="1142.0" y="1262.0">sun</node>
-            <node x="249.0" y="1262.0">META-INF</node>
-            <node x="0.0" y="1338.0">jdk</node>
-            <node x="334.84326923076924" y="211.0">Item</node>
-            <node x="0.0" y="1262.0">groovyjarjarasm</node>
-            <node x="454.69230769230774" y="0.0">ItemCategory</node>
-            <node x="977.0" y="1262.0">java</node>
-            <node x="453.0" y="1262.0">groovy</node>
-            <node x="638.0" y="1262.0">javax</node>
-            <node x="1198.3432692307692" y="0.0">groovyjarjarcommonscli</node>
-            <node x="405.7875" y="901.0">ShopManager</node>
-            <node x="4.150961538461559" y="606.0">OrderList</node>
-            <node x="914.3432692307692" y="4.46875">groovyjarjarantlr</node>
-            <node x="285.28076923076924" y="1162.0">Main</node>
+            <node x="" y="">com</node>
+            <node x="" y="">Order</node>
+            <node x="" y="">OrderGUI</node>
+            <node x="" y="">MenuList</node>
+            <node x="" y="">org</node>
+            <node x="" y="">ItemType</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">Item</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">ItemCategory</node>
+            <node x="" y="">java</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">ShopManager</node>
+            <node x="" y="">OrderList</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">Main</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="Item" target="ItemCategory">
-              <point x="-59.75" y="-172.5" />
-              <point x="514.0932692307692" y="191.0" />
-              <point x="572.1923076923077" y="191.0" />
-              <point x="47.0" y="75.5" />
-            </edge>
-            <edge source="Main" target="MenuList">
-              <point x="82.5" y="-27.5" />
-              <point x="466.78076923076924" y="1142.0" />
-              <point x="751.0048076923077" y="1142.0" />
-              <point x="751.0048076923077" y="809.0" />
-              <point x="696.8115384615385" y="809.0" />
-              <point x="100.80000000000001" y="76.5" />
-            </edge>
-            <edge source="ShopManager" target="OrderList">
-              <point x="-39.375" y="-64.5" />
-              <point x="523.9125" y="779.0" />
-              <point x="248.9509615384615" y="779.0" />
-              <point x="108.79999999999995" y="76.5" />
-            </edge>
-            <edge source="Main" target="OrderGUI">
-              <point x="-16.5" y="-27.5" />
-              <point x="367.78076923076924" y="1122.0" />
-              <point x="246.0" y="1122.0" />
-              <point x="78.5" y="136.5" />
-            </edge>
-            <edge source="Main" target="ShopManager">
-              <point x="16.5" y="-27.5" />
-              <point x="400.78076923076924" y="1122.0" />
-              <point x="484.5375" y="1122.0" />
-              <point x="-78.75" y="64.5" />
-            </edge>
-            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-              <point x="0.0" y="15.5" />
-              <point x="1018.8432692307692" y="65.46875" />
-              <point x="884.3432692307692" y="65.46875" />
-              <point x="884.3432692307692" y="19.96875" />
-              <point x="-104.5" y="-0.0" />
-            </edge>
-            <edge source="OrderList" target="Order">
-              <point x="0.0" y="-76.5" />
-              <point x="0.0" y="100.5" />
-            </edge>
-            <edge source="MenuList" target="ItemCategory">
-              <point x="-100.80000000000004" y="-76.5" />
-              <point x="495.21153846153845" y="586.0" />
-              <point x="324.34326923076924" y="586.0" />
-              <point x="324.34326923076924" y="171.0" />
-              <point x="478.19230769230774" y="171.0" />
-              <point x="-47.0" y="75.5" />
-            </edge>
-            <edge source="ShopManager" target="MenuList">
-              <point x="118.125" y="-64.5" />
-              <point x="681.4125" y="809.0" />
-              <point x="646.4115384615386" y="809.0" />
-              <point x="50.400000000000034" y="76.5" />
-            </edge>
-            <edge source="Main" target="OrderList">
-              <point x="-82.5" y="-27.5" />
-              <point x="301.78076923076924" y="1142.0" />
-              <point x="0.0" y="1142.0" />
-              <point x="0.0" y="809.0" />
-              <point x="31.350961538461604" y="809.0" />
-              <point x="-108.79999999999995" y="76.5" />
-            </edge>
-            <edge source="OrderGUI" target="OrderList">
-              <point x="-117.75" y="-136.5" />
-              <point x="49.75" y="809.0" />
-              <point x="85.75096153846158" y="809.0" />
-              <point x="-54.39999999999998" y="76.5" />
-            </edge>
-            <edge source="MenuList" target="Item">
-              <point x="50.39999999999998" y="-76.5" />
-              <point x="646.4115384615385" y="576.0" />
-              <point x="733.1766025641026" y="576.0" />
-              <point x="159.33333333333337" y="172.5" />
-            </edge>
-            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-              <point x="64.5" y="15.5" />
-              <point x="1391.8432692307692" y="61.0" />
-              <point x="1168.3432692307692" y="61.0" />
-              <point x="1168.3432692307692" y="7.75" />
-              <point x="-129.0" y="-7.75" />
-            </edge>
-            <edge source="MenuList" target="ItemType">
-              <point x="100.80000000000001" y="-76.5" />
-              <point x="696.8115384615385" y="586.0" />
-              <point x="823.3432692307692" y="586.0" />
-              <point x="823.3432692307692" y="181.0" />
-              <point x="712.6625" y="181.0" />
-              <point x="37.0" y="39.5" />
-            </edge>
-            <edge source="OrderGUI" target="MenuList">
-              <point x="39.25" y="-136.5" />
-              <point x="206.75" y="799.0" />
-              <point x="495.2115384615385" y="799.0" />
-              <point x="-100.8" y="76.5" />
-            </edge>
-            <edge source="Item" target="ItemType">
-              <point x="179.25" y="-172.5" />
-              <point x="753.0932692307692" y="191.0" />
-              <point x="675.6625" y="191.0" />
-              <point x="0.0" y="39.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="205.0" y="520.0" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="490.5" y="850.0" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ItemType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" lean-forward="true" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="66" lean-forward="true" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding>
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MenuList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="225">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Semester2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
