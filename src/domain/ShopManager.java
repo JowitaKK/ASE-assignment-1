@@ -1,3 +1,5 @@
+package domain;
+
 public class ShopManager {
     private MenuList items;
     private OrderList orders;

@@ -1,3 +1,5 @@
+package domain;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.file.FileSystems;
@@ -18,7 +20,7 @@ public class MenuList {
     }
 
 
-    protected static MenuList fromFile(String fileName) {
+    public static MenuList fromFile(String fileName) {
         String separator = ",";
         MenuList list = new MenuList();
 
@@ -47,7 +49,7 @@ public class MenuList {
 
     @Override
     public String toString() {
-        return "MenuList{" +
+        return "domain.MenuList{" +
                 "items=" + items +
                 '}';
     }

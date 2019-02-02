@@ -1,4 +1,4 @@
-import sun.security.pkcs.ParsingException;
+package domain;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class OrderList {
     }
 
 
-    protected static OrderList fromFile(String fileName) {
+    public static OrderList fromFile(String fileName) {
         String separator = ",";
         OrderList list = new OrderList();
 
@@ -54,7 +54,7 @@ public class OrderList {
 
     @Override
     public String toString() {
-        return "OrderList{" +
+        return "domain.OrderList{" +
                 "orders=" + orders +
                 '}';
     }
