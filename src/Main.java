@@ -17,5 +17,6 @@ public class Main {
         OrderGUI orderGUI = new OrderGUI(menuList, orderList);
 
         manager.generateReport();
+
     }
 }

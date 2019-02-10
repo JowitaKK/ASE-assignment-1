@@ -1,4 +1,5 @@
 package gui;
+
 import domain.MenuList;
 import domain.OrderList;
 
@@ -7,7 +8,7 @@ import java.awt.event.*;
 import javax.swing.*;
 
 
-public class OrderGUI extends JFrame implements ActionListener{
+public class OrderGUI2 extends JFrame implements ActionListener{
 
     JScrollPane scrollList;
     JButton showListByNumber, showListByScore, showListByName, close;
@@ -16,7 +17,7 @@ public class OrderGUI extends JFrame implements ActionListener{
     private MenuList items;
     private OrderList orders;
 
-    public OrderGUI(MenuList items, OrderList orders) {
+    public OrderGUI2(MenuList items, OrderList orders) {
         this.items = items;
         this.orders = orders;
         this.initGUI();
