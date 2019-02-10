@@ -2,7 +2,6 @@ import domain.MenuList;
 import domain.OrderList;
 import domain.ShopManager;
 import gui.OrderGUI;
-import gui.OrderGUI2;
 
 public class Main {
 
@@ -15,10 +14,8 @@ public class Main {
 
 
         ShopManager manager = new ShopManager(menuList, orderList);
-//        OrderGUI orderGUI = new OrderGUI(menuList, orderList);
-        OrderGUI2 orderGUI2 = new OrderGUI2(menuList, orderList);
+        OrderGUI orderGUI = new OrderGUI(menuList, orderList);
 
         manager.generateReport();
-
     }
 }
